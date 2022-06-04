@@ -133,6 +133,10 @@
 	};
 </script>
 
+<svelte:head>
+  <title>Chanta Shop - Setting</title>
+</svelte:head>
+
 <div class="container flex justify-center items-center mx-auto h-full">
 	{#if !login}
 		<div class="card w-96 bg-base-200">

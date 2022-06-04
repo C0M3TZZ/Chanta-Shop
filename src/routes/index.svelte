@@ -23,6 +23,10 @@
   import Productcards from "../lib/productcards.svelte";
 </script>
 
+<svelte:head>
+  <title>Chanta Shop</title>
+</svelte:head>
+
 <div class="container content-center mx-auto">
   <div class="flex flex-row flex-wrap my-5">
     {#each products as product}
