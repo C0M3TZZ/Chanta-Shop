@@ -40,6 +40,7 @@
     modalForm.img = item.img;
     modalForm.price = item.price;
     modalForm.type = item.type;
+    selectItem(item);
     edit = true;
     modal = true;
   };
@@ -92,6 +93,18 @@
           body: JSON.stringify(modalForm)
         });
         if (newProduct) {
+          modal = false;
+          await reload();
+        }
+      } else {        
+        const updateProduct = await fetch(`/api/products/${selectProduct._id}.json`, {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(modalForm)
+        });
+        if (updateProduct) {
           modal = false;
           await reload();
         }

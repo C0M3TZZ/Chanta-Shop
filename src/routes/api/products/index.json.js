@@ -20,9 +20,3 @@ export async function post({request}) {
 		}
 	}
 }
-
-/** @type {import('@sveltejs/kit').RequestHandler} */
-export async function patch({request, params}) {
-	console.log(request)
-	console.log(params)
-}
