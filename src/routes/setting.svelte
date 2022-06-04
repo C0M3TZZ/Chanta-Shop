@@ -81,7 +81,7 @@
   };
   let modal = false;
   let saveItem = async () => {
-    if (validateForm()) { 
+    if (!validateForm()) { 
       return;
      }    
       if (!edit) {
