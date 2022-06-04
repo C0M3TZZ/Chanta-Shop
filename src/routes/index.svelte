@@ -1,6 +1,6 @@
 <script context="module">
   export async function load({fetch}){
-    const res = await fetch('/products.json');
+    const res = await fetch('/api/products.json');
     const { products } = await res.json();
 
     if (res.ok) {
@@ -21,7 +21,6 @@
 <script>
   export let products;
   import Productcards from "../lib/productcards.svelte";
-  import { get, post } from "./products.json";
 </script>
 
 <div class="container content-center mx-auto">

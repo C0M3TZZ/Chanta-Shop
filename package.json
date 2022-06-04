@@ -26,6 +26,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.15.2"
+		"daisyui": "^2.15.2",
+		"dotenv": "^16.0.1",
+		"mongoose": "^6.3.5"
 	}
 }
