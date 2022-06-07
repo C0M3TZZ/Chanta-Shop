@@ -247,6 +247,7 @@
 				<option>fruit</option>
 				<option>bakery</option>
 				<option>spices</option>
+				<option>instant food</option>
 			</select>
 			<p class="mt-2 pl-2">Img URL</p>
 			<input
