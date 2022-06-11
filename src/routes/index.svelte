@@ -20,7 +20,7 @@
 
 <script>
   export let products;
-  import Productcards from "../lib/productcards.svelte";
+  import Productcards from "$lib/productcards.svelte";
 </script>
 
 <svelte:head>

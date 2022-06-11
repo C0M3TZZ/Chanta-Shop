@@ -287,6 +287,6 @@
 					}}>YES</label
 				>
 			</div>
-		</div></label
-	>
+		</div>
+	</label>
 </label>
