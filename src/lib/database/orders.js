@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 const schema = mongoose.Schema;
 
 const orderSchema = new schema({
-  order: Array,
+  orders: Array,
   createAt: Date,
 });
 

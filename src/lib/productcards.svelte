@@ -34,7 +34,7 @@ import { get } from "svelte/store";
         <div class="btn no-animation" on:click={() => {quantity = 1}}>{quantity}</div>
         <div class="btn" on:click={() => {quantity++}}>+</div>
       </div>
-      <div class="btn btn-primary" on:click={() => {addToCart()}}>add to cart</div>
+      <div class="btn btn-primary" on:click={() => {addToCart()}}>เพิ่มเข้าตะกร้าสินค้า</div>
     </div>
   </div>
 </div>
