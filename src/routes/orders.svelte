@@ -36,7 +36,6 @@
 	let infoModal = false;
   let total = 0;
   import moment from 'moment';
-  import 'moment/locale/th';
   $: total = orderItems.reduce((total, item) => {
     return total + item.price * item.quantity;
   }, 0);
